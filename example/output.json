@@ -1,0 +1,18 @@
+{
+  "root":{ // single node
+    "subnode":[ // node list, serveral subnodes
+      {
+        "@":["attr1":""], // attributes
+        "node1":{ 
+          "@": {"name":"fubar","key":"42"},
+          "$": "Text" // textvalue of the node
+        }
+      },{
+        "node1":{"name":"fubar2"},
+      }
+    ],
+    "other_node":{ 
+      "$": "Single Node"
+    }
+  }
+}

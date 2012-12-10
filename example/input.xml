@@ -1,0 +1,9 @@
+<root>
+  <subnode attr1="" >
+    <node1 name="fubar" key="42" >Text</node1>
+  </subnode>
+  <subnode>
+    <node1 name="fubar2" >Some Other Text</node1>
+  </subnode>
+  <other_node>Single Node</other_node>
+</root>
